@@ -1,7 +1,7 @@
 
 function setup() {
   noCursor();
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(displayWidth, displayHeight);
   //background(random(red,green,blue));
   x = random(5,height/4);
   y = random(5,height/4);
